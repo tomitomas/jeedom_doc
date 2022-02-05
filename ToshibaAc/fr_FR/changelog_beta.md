@@ -7,6 +7,7 @@
 # 05/02/2022  
 - Mise à jour des librairies utilisés (grosse refonte)  
 - Récupération des options valides pour chaque unité  
+- Suppression des mots de passe et autres infos sensibles dans les logs  
 
 # 11/11/2021  
 - Ajout des commandes mode actif et ventilation active en FR (en supplément)

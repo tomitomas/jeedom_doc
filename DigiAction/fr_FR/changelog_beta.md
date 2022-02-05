@@ -4,13 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/02/2022
+-- passage en stable --  
+
 # 10/01/2022
 - Bug fixes : 
   * Bug sur le renommage du mode en cours
 
 # 07/01/2022
 - Nouveautés : 
-  * Ajout la possibilité de définir le type de contrôle à faire sur les mauvais code : limite baisse à atteindre ou une récurrence
+  * Ajout la possibilité de définir le type de contrôle à faire sur les mauvais code : limite basse à atteindre ou une récurrence
 
 # 05/01/2022
 - Bug fixes : 

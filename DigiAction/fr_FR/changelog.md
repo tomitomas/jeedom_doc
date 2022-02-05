@@ -4,6 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/02/2022
+- Nouveautés : 
+  * Ajout la possibilité de définir le type de contrôle à faire sur les mauvais code : limite basse à atteindre ou une récurrence
+  * Ajout du mode `Panic`
+  * Ajout d'un nouveau log (en `INFO`) permettant de savoir à quel moment les actions ont été réalisées et par qui
+  * Ajout la possibilité de définir une date de validité pour les mots de passe utilisateur
+    * Date de début et date de fin de validité sont calculées par le plugin (cf doc) avec l'aide du planificateur (cron)
+  * Un code utilisateur peut être activé/désactivé via une case à cocher
+  * Nouvelle commande `Changer code utilisateur` qui permet de changer dynamiquement le code d'un utilisateur
+  * Les mots de passe sont masqués par défaut sur l'écran
+
+- Bug fixes : 
+  * Renommage du mode en cours
+
 # 01/08/2021  
 Nouveautés :
 - Autoriser un mode à s'auto-appeler (sur l'ensemble de l'équipement)
