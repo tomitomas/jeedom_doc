@@ -28,10 +28,10 @@ Trois onglets de configuration sont disponibles :
 
 # Equipement  
 
-Vous retrouvez ici toute la configuration standard de votre équipement :  
 
 <img src="..\img\digiAction_equipement.png" width="50%" />  
 <br/><br/>
+Vous retrouvez ici toute la configuration standard de votre équipement :  
 
 * Nom de l’équipement : définit nom de votre équipement DigiAction,
 * Objet parent : indique l’objet parent auquel appartient l’équipement,
@@ -39,7 +39,26 @@ Vous retrouvez ici toute la configuration standard de votre équipement :
 * Activer : permet de rendre votre équipement actif,
 * Visible : rend votre équipement visible sur le dashboard
 <br/><br/>  
-  
+
+La seconde partie gère l'affichage des textes au dessus du clavier/mode. 
+* Temps d'affichage des messages
+
+Vous pouvez également personaliser les textes affichés sur le widget du dashboard lorsqu'un :
+* changement de mode est réalisé avec succès
+* mauvais code est saisi 
+
+Vous pouvez ajouter les options suivantes :
+- `#eqId#` => numéro de l'équipement DigiAction  
+- `#eqName#` => nom de l'équipement DigiAction  
+- `#modeName#` => nom du mode qui tente d'être activé  
+- `#nbWrongPwd#` => nombre de mauvais code saisi
+<br/><br/>  
+
+Enfin, pour permettre à un mode de pouvoir être ré-activé par lui-même, il est nécessaire de cocher le paramétre `Chaque mode s'auto-appelle`
+
+<br/>
+
+
 # Actions  
 
 Cet onglet contient les principales configurations du widgets.  
