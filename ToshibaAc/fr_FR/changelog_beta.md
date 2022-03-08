@@ -4,7 +4,7 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-## 08/03/2022
+# 08/03/2022
 - Nettoyage dans les librairies utilisés  
 - Correction d'un bug : activations de fonctionnalités avancées depuis l'application officielle Toshiba ne remonte pas dans le plugin
 
