@@ -5,19 +5,15 @@ Ce plugin permet d'enregistrer des Pense Bêtes et de réaliser différentes act
 
 <img src="..\img\remindme_icon.png" width="20%" />
 
-<br/><br/>
-
 # Configuration des Pense-Bêtes
 
 La configuration des équipements DigiAction est accessible à partir du menu `Plugins`, sous la catégorie `Organisation`.  
 
 Ni dépendances, ni démon, le plugin s'active et s'utilise directement simplement.  
-  
-<br/><br/>
 
 L'ajout d'un nouvel équipement se fait comme sur n'importe quel autre plugin, simplement en cliquant sur `Ajouter`
 <br/>
-<img src="..\img\all_pense_betes.png" width="25%" />  
+<img src="..\img\all_pense_betes.png" width="50%" />  
 
 <br/>
 Trois onglets de configuration sont disponibles :
@@ -38,13 +34,10 @@ Vous retrouvez ici toute la configuration standard de votre équipement :
 * Catégorie : catégorise l’équipement (il peut appartenir à plusieurs catégories)
 * Activer : permet de rendre votre équipement actif,
 * Visible : rend votre équipement visible sur le dashboard
-<br/><br/>  
-
+  
 La seconde partie gère différentes options.
 
 * Auto-suppression : si cochée, les tâches qui sont passées sont automatiquement supprimées.
-
-<br/><br/>  
 
 # Rappels  
 
@@ -67,8 +60,6 @@ Pour les options de la commande, vous pouvez utiliser les tags suivants, qui ser
 * `#task#` => nom de la tâche  
 * `#deadLine#` => prochaine échéance de la tâche
 
-<br/><br/>
-
 # Tâches  
 
 C'est ici que sont listées toutes les tâches (liées à cet équipement).  
@@ -83,9 +74,6 @@ Pour ajouter une tâche, il faut simplement :
   * soit une date unique
   * soit avec une reccurence  
   Lors de la sauvegarde, la prochaine échéance est automatiquement calculée
-
-<br/>  
-<br/>  
 
 # FAQ  
 

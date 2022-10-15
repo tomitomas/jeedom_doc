@@ -13,7 +13,7 @@ Ni dépendances, ni démon, le plugin s'active et s'utilise directement simpleme
 
 L'ajout d'un nouvel équipement se fait comme sur n'importe quel autre plugin, simplement en cliquant sur `Ajouter`
 <br/>
-<img src="..\img\all_pense_betes.png" width="25%" />  
+<img src="..\img\all_pense_betes.png" width="50%" />  
 
 <br/>
 Trois onglets de configuration sont disponibles :
