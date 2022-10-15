@@ -1,79 +1,94 @@
-# Plugin Toshiba AC Control
+# Plugin Pense-Bête (RemindMe) - BETA
 
-Ce plugin permet de gérer vos climatiseurs Toshiba, connectés via un Adaptateur Wi-Fi (`RB-101S-G`, `RB-102S-G`, ...).  
+Plus d'excuse pour oublier ceci ou cela !  
+Ce plugin permet d'enregistrer des Pense Bêtes et de réaliser différentes actions lorsqu'une tâche est sur le point d'arriver.
 
-<img src="..\img\widget_brut.png" width="50%" />
+<img src="..\img\remindme_icon.png" width="20%" />
 
 <br/><br/>
 
-# Configuration du Plugin
+# Configuration des Pense-Bêtes
 
-La configuration des équipements Toshiba AC est accessible à partir du menu `Plugins`, sous la catégorie `Confort`, et se fait en 3 étapes :  
+La configuration des équipements DigiAction est accessible à partir du menu `Plugins`, sous la catégorie `Organisation`.  
 
-1. installez les dépendances  
-2. indiquez le nom d'utilisateur et le mot de passe que vous avez paramétrés sur votre application Toshiba. Il est recommandé de ne pas modifier le port par défaut.
-3. démarrez le démon !
-
-Si tout est vert, alors tout va bien ! :)  
+Ni dépendances, ni démon, le plugin s'active et s'utilise directement simplement.  
   
-<img src="..\img\settings_page.png" />
 <br/><br/>
 
-# Ajout des Climatiseurs
-
-Les climatiseurs doivent être ajoutés sur votre compte Toshiba, depuis l'application Toshiba dédiée.  
-Le plugin récupère les appareils déjà enregistrés sur l'application et créé les équipements correspondant sur Jeedom.  
-
-Pour se faire, il vous suffit de cliquer sur le bouton `Scan` sur la page principale du plugin.
+L'ajout d'un nouvel équipement se fait comme sur n'importe quel autre plugin, simplement en cliquant sur `Ajouter`
 <br/>
-<img src="..\img\main_page.png" width="80%" />  
+<img src="..\img\all_pense_betes.png" width="25%" />  
 
 <br/>
-Les équipements seront automatiquement remontés :
+Trois onglets de configuration sont disponibles :
 
-<br/>
-<img src="..\img\clim_added.png" width="50%" />  
+1. Equipement
+2. Rappel
+3. Tâches  
+<br/><br/>
+
+# Equipement  
+
+<img src="..\img\equipement.png" width="50%" />  
+<br/><br/>
+Vous retrouvez ici toute la configuration standard de votre équipement :  
+
+* Nom de l’équipement : définit nom de votre équipement Pense-Bête,
+* Objet parent : indique l’objet parent auquel appartient l’équipement,
+* Catégorie : catégorise l’équipement (il peut appartenir à plusieurs catégories)
+* Activer : permet de rendre votre équipement actif,
+* Visible : rend votre équipement visible sur le dashboard
+<br/><br/>  
+
+La seconde partie gère différentes options.
+
+* Auto-suppression : si cochée, les tâches qui sont passées sont automatiquement supprimées.
+
+<br/><br/>  
+
+# Rappels  
+
+Cet onglet contient les principales configurations de rappel qui seront utilisées sur l'ensemble des tâches.  
+Vous pouvez par exemple choisir d'avoir plusieurs rappels pour chaque tâche ; chaque rappel pouvant réaliser différentes actions/opérations.  
+
+Par exemple :
+
+* 10 jours avant : afficher un message sur jeedom
+* la veille : m'envoyer un mail
+* 3h avant : envoyer sms
+* 5 min avant : faire lire la tâche par alexa + envoyer sms
+
+<img src="..\img\rappel.png"  />
+
+Pour les options de la commande, vous pouvez utiliser les tags suivants, qui seront automatiquement remplacés :
+
+* `#eqId#` => numéro de l'équipement Pense-Bête  
+* `#eqName#` => nom de l'équipement Pense-Bête  
+* `#task#` => nom de la tâche  
+* `#deadLine#` => prochaine échéance de la tâche
 
 <br/><br/>
 
-# Liste des Commandes
+# Tâches  
 
-### Actions
+C'est ici que sont listées toutes les tâches (liées à cet équipement).  
+Chaque tâche recevra 1 à N rappel en fonction de la configuration réalisée sur l'onglet précédent.
 
-Les commandes suivantes règlent différentes fonctionnalités du climatiseur :  
+<img src="..\img\task.png" width="60%" />  
 
-- `Marche` : met le climatiseur en marche
-- `Arrêt` : arrête le climatiseur
-- `Température` : permet de régler la consigne de la température souhaitée
-- `Mode` : règle le mode du climatiseur : chauffage, refroidissement, séchage, ventilation, automatique
-- `Ventilation` : détermine la puissance de soufflerie
-- `Oscillation` : rythme le mode d'oscillation de la soufflerie
-- `Puissance` : modère la puissance de l'unité : 100%, 75% ou 50%
-- `Fonctionnalités avancées A` / `Fonctionnalités avancées B` : gère certaines fonctionnalitées avancées disponibles sur le climatiseur
-- `Air Pure` : (dés)active le mode air pure de l'unité
+Pour ajouter une tâche, il faut simplement :
 
-### Infos
+* cliquer sur le bouton `Ajouter une tâche`
+* lui définir une date d'échéance :
+  * soit une date unique
+  * soit avec une reccurence  
+  Lors de la sauvegarde, la prochaine échéance est automatiquement calculée
 
-Les commandes suivantes permettent de récupérer différents éléments de l'état du climatiseur :  
+<br/>  
+<br/>  
 
-- `Etat`
-- `Auto-nettoyage`
-- `Aire Pure ION`
-- `Mode actif`
-- `Temperature (consigne)`
-- `Température int. (sonde)`
-- `Température ext. (sonde)`
-- `Ventilation active`
-- `Oscillation actif`
-- `Puissance active`
-- `Fonctionnalité avancée active (A)`
-- `Fonctionnalité avancée active (B)`
-- `Consommation` : donne la consommation énergétique (en Wh) depuis le début d'année  
+# FAQ  
 
-<br/><br/>
+### à définir ...?
 
-# Options  
-
-## Offset  
-
-Si vous constatez une différence entre la température remontée par votre clim et la température réelle de votre pièce, vous pouvez indiquer un `offset` sur chacun de vos appareils. Cette différence (positive ou négative) est ajoutée à la température du climatiseur, et à la consigne envoyée à l'appareil.
+....
