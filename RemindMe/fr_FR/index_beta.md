@@ -7,7 +7,7 @@ Ce plugin permet d'enregistrer des Pense Bêtes et de réaliser différentes act
 
 # Configuration des Pense-Bêtes
 
-La configuration des équipements DigiAction est accessible à partir du menu `Plugins`, sous la catégorie `Organisation`.  
+La configuration des équipements Pense-Bête est accessible à partir du menu `Plugins`, sous la catégorie `Organisation`.  
 
 Ni dépendances, ni démon, le plugin s'active et s'utilise directement simplement.  
 
