@@ -1,4 +1,4 @@
-# Plugin Pense-Bête (RemindMe) - BETA
+# Plugin Pense-Bête (RemindMe)
 
 Plus d'excuse pour oublier ceci ou cela !  
 Ce plugin permet d'enregistrer des Pense Bêtes et de réaliser différentes actions lorsqu'une tâche est sur le point d'arriver.
@@ -74,6 +74,19 @@ Pour ajouter une tâche, il faut simplement :
   * soit une date unique
   * soit avec une reccurence  
   Lors de la sauvegarde, la prochaine échéance est automatiquement calculée
+
+# Commandes disponibles  
+
+Plusieurs commandes sont disponibles de base lors de la création de l'équipement :  
+
+* Infos :
+  * `Toutes les prochaines tâches` : liste l'ensemble des tâches à venir. La façon dont les tâches sont séparées les unes des autres est à définir au niveau de l'équipement (virgule, retour chariot ou break line)
+  * `Prochaine Tâche` : retourne la prochaine tâche à venir
+
+* Actions :
+  * `Supprimer toutes les Tâches` : permet de retirer toutes les tâches définies sur l'équipement  
+  * `Supprimer une tâche` : permet de retirer une tâche en particulier, son `id` doit être passé en argument
+  * `Ajouter une tâche` : permet de créer une tâche supplémentaire sur l'équipement. Le nom ainsi que l'échéance (au format `YYYY-MM-DD HH:MM`) sont attendues
 
 # FAQ  
 
