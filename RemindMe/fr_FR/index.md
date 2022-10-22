@@ -38,6 +38,14 @@ Vous retrouvez ici toute la configuration standard de votre équipement :
 La seconde partie gère différentes options.
 
 * Auto-suppression : si cochée, les tâches qui sont passées sont automatiquement supprimées.
+* Retour à la ligne : permet de choisir quel type de retour chariot est utilisé dans la commande `Toutes les prochaines tâches`
+* Affichage du format date : différentes options de format de date. Ce format est pris en compte dans l'affichage sur le widget et sur les commandes de type `info`
+* Affichage des tâches : différentes options de format des tâches. Ce format est pris en compte dans l'affichage sur le widget et sur les commandes de type `info`
+
+La dernière partie permet de personnaliser les couleurs utilisées sur le widget :
+
+* Par défaut : les couleurs d'arrière plan et de texte de chaque ligne du widget
+* Evènement du jour : si la tâche est prévu aujourd'hui, alors la ligne s'affiche avec des couleurs différentes
 
 # Rappels  
 
@@ -90,6 +98,22 @@ Plusieurs commandes sont disponibles de base lors de la création de l'équipeme
 
 # FAQ  
 
-### à définir ...?
+### Je peux bien choisir l’échéance du rappel et l’action a effectuer, mais on ne peut pas spécifier sur quelle taches se base cette échéance ?
 
-....
+En effet, et c’est tout l’idée du plugin !
+
+Tu crées un équipement dans lequel tu définis quels sont (tous) les rappels que tu souhaites avoir et ensuite toutes les tâches liées à cet équipement bénéficient de l’ensemble de ces rappels.  
+
+Par exemple, tu pourrais avoir :  
+
+* 1 équipement A « ultra important », dans lequel tu aurais la définition de plusieurs rappels (car il ne faut vraiment pas oublier cette tache/action !) :
+  * 10 jours avant : afficher un message sur jeedom
+  * la veille : m’envoyer un mail
+  * 3h avant : envoyer sms
+  * 5 min avant : faire lire la tâche par alexa + envoyer sms
+
+* 1 autre équipement B « pour info », dans lequel tu définirais seulement un seul rappel (car c’est juste un truc à penser, pas grave si ça n’est pas fait…)
+  * 5 min avant : envoie une notif
+
+Du coup, en fonction de « l’importance » de la tâche que tu souhaites créer, tu l’ajouteras soit dans l’équipement A, soit dans l’équipement B
+**sans te soucier** du type de rappel que tu recevras, puisque c’est l’équipement qui porte cette info.
