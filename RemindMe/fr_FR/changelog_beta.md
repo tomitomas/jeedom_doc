@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/10/2022
+
+- Nouveautés :
+  - Ajout d'une tâche cron dédiée au plugin (pour ne pas être impacté sur d'autres traitements par d'autres plugin)
+
 # 26/10/2022
 
 - Nouveautés :
