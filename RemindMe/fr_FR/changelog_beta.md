@@ -11,6 +11,7 @@
   - Permettre de désactiver temporairement une tâche
   - Ajout d'une confirmation avant suppression
   - Changement du sous-type de la commande `Supprimer toutes les Tâches`
+  - Création d'une commande `Changer le statut` pour passer une tâche active/inactive via scénario & co
 
 # 02/11/2022
 
