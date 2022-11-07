@@ -12,6 +12,15 @@
   - Ajout d'une confirmation avant suppression
   - Changement du sous-type de la commande `Supprimer toutes les Tâches`
 
+# 02/11/2022
+
+- Corrections :
+  - Gestion des dates sur les prochaines années
+
+- Nouveautés :
+  - Ajout la personnalisation du nom de la colonne « Tâche » sur le widget
+  - Ajout d’une option pour définir si une date d’échéance doit être définie sur chaque tâche ou non
+
 # 30/10/2022
 
 - Nouveautés :
