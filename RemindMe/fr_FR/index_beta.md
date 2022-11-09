@@ -46,8 +46,8 @@ La seconde partie gère différentes options.
 * Retour à la ligne : permet de choisir quel type de retour chariot est utilisé dans la commande `Toutes les prochaines tâches`
 * Affichage du format date : différentes options de format de date. Ce format est pris en compte dans l'affichage sur le widget et sur les commandes de type `info`
 * Affichage des tâches : différentes options de format des tâches. Ce format est pris en compte dans l'affichage sur le widget et sur les commandes de type `info`
-* Affichage de l'id : ajoute l'identifiant de la tâche à côté du nom dans la commande `Toutes les prochaines tâches`
-* Afficher les tâches désactivées : paramétre si vous souhaitez voir uniquement les tâches actives ou toutes les tâches sur le widget du dashboard et dans la commande  `Toutes les prochaines tâches`
+* Affichage de l'id : ajoute l'identifiant de la tâche à côté du nom sur les commandes de type `info`
+* Afficher les tâches désactivées : paramétre si vous souhaitez voir uniquement les tâches actives ou toutes les tâches sur le widget du dashboard et sur les commandes de type `info`
 
 La dernière partie permet de personnaliser les couleurs utilisées sur le widget :
 
