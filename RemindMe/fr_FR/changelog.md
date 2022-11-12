@@ -4,6 +4,20 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/11/2022
+
+- Nouveautés :
+  - Réinitialise le compteur des `id` à 1, lorsqu’on utiliser la commande `Supprimer toutes`
+  - Trie des tâches sur le widget et sur les commandes de type `info`
+  - Ajout du texte `(désactivé)` selon les options
+  - Permettre de désactiver temporairement une tâche
+  - Ajout d’une confirmation avant suppression
+  - Changement du sous-type de la commande `Supprimer toutes les Tâches`
+  - Création d’une commande `Changer le statut` pour passer une tâche active/inactive via scénario & co
+  - Gestion des dates sur les prochaines années
+  - Ajout la personnalisation du nom de la colonne « Tâche » sur le widget
+  - Ajout d’une option pour définir si une date d’échéance doit être définie sur chaque tâche ou non
+
 # 01/11/2022
 
 - Nouveautés :
