@@ -7,7 +7,10 @@
 # 14/11/2022
 
 - Nouveautés :
-  - Ajout `date uniquement` pour l'option `Affichage du format date`
+  - Nouvelles option pour `Affichage du format date` :
+    - Ajout `date uniquement` pour l'option
+    - Ajout d'un champ `personnalisé` pour que l'utilisateur puisse définir le format de date qu'il souhaite (valide au format PHP --> cf [PHP doc](https://www.php.net/manual/en/datetime.format.php))
+  - La suppression de tâche peut se faire via des intervalles : 1-5 --> supprime les id de 1 à 5
 
 # 10/11/2022
 
