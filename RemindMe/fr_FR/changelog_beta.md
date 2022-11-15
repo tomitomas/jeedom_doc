@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 15/11/2022
+
+- Nouveautés :
+  - Le changement de statut de tâche  :
+    - peut se faire via des intervalles : 3,7-11 --> change les id 3 ainsi que de 7 à 11
+    - ajout de l'option `switcher` qui permet d'inverser l'état sans avoir à le spécifier
+
 # 14/11/2022
 
 - Nouveautés :
