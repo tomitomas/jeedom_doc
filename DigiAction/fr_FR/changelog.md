@@ -4,11 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 20/10/2022
+# 02/01/2023
 
 - Nouveautés :
   - Possibilité de choisir le design des différents mode en personnalisant la couleur d'arrière plan et la couleur du texte  
   - Permet la personnalisation des messages affichés en cas d'etre de saisie de code ou en cas de réussite
+  
+# 20/10/2022
+
+- Nouveautés :
   - Mise à jour pour intégrer les nouveautés core 4.3
 
 # 05/02/2022
