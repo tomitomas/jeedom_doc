@@ -4,6 +4,16 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/01/2023
+
+- Bug fix :
+  - lors du passage d'une page à une autre, il n'est plus possible de supprimer une tâche
+
+# 18/01/2023
+
+- Nouveautés :
+  - Ajout de 2 nouvelles commandes : `Prochaine Tâche (date)` et `Prochaine Tâche (texte)`
+
 # 15/11/2022
 
 - Nouveautés :
