@@ -1,6 +1,7 @@
 # Plugin My Bin
 
-Petit plugin pour Jeedom facilitant la gestion des poubelles domestiques.
+Petit plugin pour Jeedom facilitant la gestion des poubelles domestiques.  
+*Auteur original @hugoKs3*
 
 # Configuration
 
