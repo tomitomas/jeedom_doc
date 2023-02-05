@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/02/2023
+
+Mise à jour importante à réaliser.  
+Corrige un conflit avec le plugin-mybin.  
+A réaliser avant l'update de mybin
+
 # 03/02/2023
 
 - Nouveauté :
