@@ -7,7 +7,7 @@ Petit plugin pour Jeedom facilitant la gestion des poubelles domestiques.
 
 ## Configuration du plugin
 
-Sur la page de configuration du plugin, vous pouvez choisir d'utiliser un widget global qui affichera un calendrier de ramassage de vos différentes poubelles ainsi qu'une icône pour chaque poubelle devant être sortie.
+Sur la page de configuration du plugin, vous pouvez choisir d'utiliser un widget global qui affichera un calendrier de ramassage de vos différentes poubelles ainsi qu'un icône pour chaque poubelle devant être sortie.
 
 Vous pouvez également spécifier l'objet parent pour ce widget, les éléments à afficher, et les dates à utiliser pour le calendrier (ramassage ou notification)
 
@@ -27,7 +27,7 @@ Définissez les jours et heures de ramassage de votre poubelle. Plusieurs option
 
 ### Notification
 
-Définisez combien de jours avant chaque ramassage et à quelle heure l'etat de la commande "Poubeele à sortir" doit passer à 1.
+Définisez combien de jours avant chaque ramassage et à quelle heure l'etat de la commande "Poubelle à sortir" doit passer à 1.
 Vous pouvez également définir une expression binaire qui sera évaluée au moment de la notification. Si vérifiée, la commande passera à 1.
 
 ### Compteur
@@ -40,8 +40,8 @@ Vous pouvez définir une ou plusieurs actions à exécuter après ramassage et/o
 
 ### Informations
 
-Vous pouvez visualiser, en fonction de votre configuration, les 10 prochains dates de ramassage et de notification.
-Si il y a une erreur dans votre configration, le problème sera spécifier en orange avec une information vous expliquant le problème.
+Vous pouvez visualiser, en fonction de votre configuration, les 10 prochaines dates de ramassage et de notification.
+Si il y a une erreur dans votre configuration, le problème sera spécifié en orange avec une information vous expliquant le problème.
 
 ## Personnalisation
 
