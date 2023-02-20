@@ -10,6 +10,9 @@
 - Correction fonction deprecated
 - Correction erreur 500 à la création d'un équipement
 
+<details>
+<summary>Précédent changlog !</summary>
+
 # 14/11/2021
 
 - Adaptation à un changement de layout du site
@@ -54,3 +57,5 @@
 # 16/01/2021
 
 - Première version publique (beta)
+
+</details>
