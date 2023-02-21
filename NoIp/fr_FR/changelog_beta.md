@@ -4,14 +4,24 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 21/02/2023
+
+- Ajout de la commande `date de fin` sur chaque équipement "Domaine"
+- Ajout de la commande  `Statut` sur chaque équipement "Comptes" --> si la synchro du compte est en erreur, alors le statut passera à "error". Je vous invite à créer un scénario pour avoir une alerte si nécessaire.
+- Ajout de l'option `Refresh auto si erreur` sur les "Comptes" --> si une synchro tombe en erreur, le plugin doit il tenter de refaire une synchro automatiquement 5 min plus tard ? ou (par défaut) attendre la prochaine synchro le lendemain
+- Ajout d'une fenêtre pour voir les screenshot réalisés lors de la synchro pour aider au debug
+- Changement couleurs des icônes
+- Mise en place de log synchrone lors de l'execution du script python
+- Gestion des timeout
+- Synchro des comptes en background de façon à ne pas bloquer l'utilisateur (et/ou revoir des erreur 405)
+
 # 17/02/2023
 
 - Reprise du plugin
 - Correction fonction deprecated
 - Correction erreur 500 à la création d'un équipement
 
-<details>
-<summary>Précédent changlog !</summary>
+# <u>Précédent changlog !</u>
 
 # 14/11/2021
 
