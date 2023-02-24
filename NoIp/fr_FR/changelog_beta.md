@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 23/02/2023
+
+Nouveautés :
+
+- ajout d'une nouvelle commande `linked IP` : qui permet de récupérer l'info de redirection du dns
+- ajout d'une nouvelle option pour permettre de vérifier si l'IP configuré sur NOIP est bien à jour avec notre IP courante, et mettre à jour si nécessaire
+
 # 21/02/2023
 
 - Ajout de la commande `date de fin` sur chaque équipement "Domaine"

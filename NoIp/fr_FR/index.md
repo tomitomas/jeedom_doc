@@ -49,14 +49,24 @@ Pour chaque compte No-Ip, les commandes suivantes sont disponibles :
 
 - refresh pour forcer un rafraîchissement (et éventuellement un renouvellement)
 - La date et heure à laquelle le prochaine vérification automatique s'exécutera
+- le statut de synchro du compte: `ok` si la synchro s'est correctement passé, `error` s'il y a eu un soucis. Dans le cas où la synchro serait KO vous avez la possibilité de demander au plugin de relancer un scan 5min plus tard, sans attendre le prochain lancement qui pourrait n'avoir lieu que 24h plus tard.
 
 Pour chaque domaine, les commandes suivantes sont disponibles :
 
 - le nom de domaine
 - le nombre de jours avant expiration
-- le statut de renouvellement : ok si correctement renouvelé ou si pas encore expiré, warning si le nombre de jours avant expiration est inférieur à 7, error si le renouvellement a échoué (très probablement parce qu'une intervention mannuelle est nécessaire)
+- le statut de renouvellement : `ok` si correctement renouvelé ou si pas encore expiré, `warning` si le nombre de jours avant expiration est inférieur à 7, `error` si le renouvellement a échoué (très probablement parce qu'une intervention mannuelle est nécessaire)
+- la date d'expiration
+- l'adresse ip auquel le dns est lié
 
 Un template de widget est également disponible pour visualiser vos domaines ainsi que leurs status.
+
+# Rafraichissement des IP
+
+Vous avez la possibilité de faire vérifier que l'ip rattachée à votre nom de domain est toujours à jour. Toutes les 15 minutes une tâche check que l'ip enregistrée sur votre domaine est bien la même que celle que vous avez configuré sur votre équipement :
+
+- soit votre ip actuelle récupérée automatiquement,
+- soit une ip que vous aurez vous-même fixée
 
 # Limitations
 
