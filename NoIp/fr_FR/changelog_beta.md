@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 07/03/2023
+
+- Bug Fix :
+  - Correction problème d'authentification lors la mise à jour automatique de l'ip
+
 # 02/03/2023
 
 - Nouveautés :
