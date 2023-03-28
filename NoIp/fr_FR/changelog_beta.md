@@ -4,6 +4,10 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 28/03/2023
+
+- Compliance core 4.4
+
 # 07/03/2023
 
 - Bug Fix :
