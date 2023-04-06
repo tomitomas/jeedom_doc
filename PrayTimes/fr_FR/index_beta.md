@@ -6,10 +6,6 @@ Les calculs sont réalisés selon la méthode définie par l'organisation des Mu
 
 <img src="..\img\logo.png" width="20%" />
 
-# DISCLAIMER  
-
-Le plugin se base sur une API, proposée par un service externe, et peut par conséquent cesser de fonctionner à tout moment.
-
 # Configuration des Villes
 
 La configuration des équipements Prières est accessible à partir du menu `Plugins`, sous la catégorie `Organisation`.  
