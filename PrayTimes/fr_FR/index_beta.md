@@ -4,7 +4,7 @@ Ce plugin permet de connaitre les différentes heures de prières de la journée
 
 Les calculs sont réalisés selon la méthode définie par l'organisation des Musulmans de France (MF), anciennement Union des organisations islamiques en France.
 
-<img src="..\img\praytimes_icon.png" width="20%" />
+<img src="..\img\logo.png" width="20%" />
 
 # DISCLAIMER  
 
