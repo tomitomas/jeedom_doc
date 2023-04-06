@@ -31,7 +31,7 @@ De façon standard, deux onglets de configuration sont disponibles :
 
 # Equipement  
 
-<img src="..\img\equipement.png" width="80%" />  
+<img src="..\img\equipment.png" width="80%" />  
 <br/><br/>
 Vous retrouvez ici toute la configuration standard de votre équipement :  
 
