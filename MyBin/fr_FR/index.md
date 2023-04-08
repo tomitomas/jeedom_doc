@@ -56,10 +56,11 @@ En cliquant sur l'icône **Personnalisation** sur la page des équipements, vous
 Chaque équipement crée 5 commandes :
 
 - une indiquant si il faut sortir la poubelle (à 1 dans ce cas)
-- une commande 'ack' remettant le statut à 0. Cette commande est automatiquement appelée à l'heure de ramassage
-- une commande 'compteur' qui s'incrémente à chaque ack (en fonction de la configuration du compteur)
-- une commande 'reset' pour réinitialiser le compteur
-- Une commande 'Prochain ramassage' vous indiquant la date et l'heure du prochain ramassage
+- une commande `Ack` remettant le statut à 0. Cette commande est automatiquement appelée à l'heure de ramassage
+- une commande `compteur` qui s'incrémente à chaque ack (en fonction de la configuration du compteur)
+- une commande `reset` pour réinitialiser le compteur
+- Une commande `Prochain ramassage` vous indiquant la date et l'heure du prochain ramassage
+- Une commande `Ajouter une date spéciale` pour ajouter une nouvelle date spéciale de ramassage
 
 # Contributions
 
