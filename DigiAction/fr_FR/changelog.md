@@ -8,7 +8,7 @@
 
 - Nouveautés :
   - Possibilité de choisir le design des différents mode en personnalisant la couleur d'arrière plan et la couleur du texte  
-  - Permet la personnalisation des messages affichés en cas d'etre de saisie de code ou en cas de réussite
+  - Permet la personnalisation des messages affichés en cas d'erreur de saisie de code ou en cas de réussite
   
 # 20/10/2022
 

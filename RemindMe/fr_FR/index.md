@@ -37,7 +37,7 @@ Vous retrouvez ici toute la configuration standard de votre équipement :
   
 La seconde partie gère différentes options.
 
-* Titre de la colonne : permet de personaliser le label que vous souhaitez voir sur le widget pour le noms des "Tâches".
+* Titre de la colonne : permet de personnaliser le label que vous souhaitez voir sur le widget pour le nom des "Tâches".
 * Liste des tâches :
   * Avec date obligatoire : lors de la création d'une nouvelle tâche, une date sera forcément à renseigner pour enregistrer sa création
   * Avec date facultative : les tâches n'auront pas nécessairement de date à définir
@@ -52,7 +52,7 @@ La seconde partie gère différentes options.
 La dernière partie permet de personnaliser les couleurs utilisées sur le widget :
 
 * Par défaut : les couleurs d'arrière plan et de texte de chaque ligne du widget
-* Evènement du jour : si la tâche est prévu aujourd'hui, alors la ligne s'affiche avec des couleurs différentes
+* Evènement du jour : si la tâche est prévue aujourd'hui, alors la ligne s'affiche avec des couleurs différentes
 
 # Rappels  
 
@@ -103,14 +103,14 @@ Plusieurs commandes sont disponibles de base lors de la création de l'équipeme
   * `Prochaine Tâche` : retourne la prochaine tâche à venir
 
 * Actions :
-  * `Ajouter une tâche` : permet de créer une tâche supplémentaire sur l'équipement. Le nom ainsi que l'échéance (au format `YYYY-MM-DD HH:MM`) sont attendues
+  * `Ajouter une tâche` : permet de créer une tâche supplémentaire sur l'équipement. Le nom ainsi que l'échéance (au format `YYYY-MM-DD HH:MM`) sont attendus
   * `Supprimer toutes les Tâches` : permet de retirer toutes les tâches définies sur l'équipement  
   * `Supprimer une tâche` : permet de retirer une ou plusieurs tâche en particulier, son `id` doit être passé en argument (possible de passer une liste en argument avec la virgule comme séparateur `,`)
   * `Changer le statut` : permet d'activer ou désactiver une tâche (`titre` : enable/disable; `message` : id de la tâche)
 
 # FAQ  
 
-## Je peux bien choisir l’échéance du rappel et l’action a effectuer, mais on ne peut pas spécifier sur quelle taches se base cette échéance ?
+## Je peux bien choisir l’échéance du rappel et l’action a effectuer, mais on ne peut pas spécifier sur quelle tâches se base cette échéance ?
 
 En effet, et c’est tout l’idée du plugin !
 
@@ -146,7 +146,7 @@ Vous pouvez vous aider de [ce site](https://www.site24x7.com/fr/tools/crontab/cr
 
 ## Comment peut-on utiliser le plugin ?
 
-Le plugin peut être utiliser de 2 manières principalement.
+Le plugin peut être utilisé de 2 manières principalement.
 
 ### 1. Post-it
 
