@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/04/2023
+
+- Nouveauté :
+  - Ajout au niveau des comptes d'une nouvelle commande pour avoir un récap global des échéances des domaines (liste de `nom de domaine : X jours`)
+
 # 28/03/2023
 
 - Compliance core 4.4
