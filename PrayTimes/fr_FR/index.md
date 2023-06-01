@@ -1,4 +1,4 @@
-# Plugin Prières (PrayTimes) - BETA
+# Plugin Prières (PrayTimes)
 
 Ce plugin permet de connaitre les différentes heures de prières de la journée sur une ville donnée.
 
@@ -64,6 +64,11 @@ Note : les mêmes commandes avec "J+1" sont créés, si vous avez choisi cette o
 
 * Actions :
   * `Refresh` : permet de rafraichir les informations
+
+# Disclamer  
+
+Le plugin se base sur une API externe.  
+Si celle-ci venait à ne plus être disponible, des modifications seraient à apporter sur le plugin, je ne peux donc pas garantir à 100% son fonctionnement sur le long terme.
 
 # FAQ  
 
