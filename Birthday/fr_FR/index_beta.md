@@ -75,7 +75,7 @@ Pour ajouter un anniversaire, il faut simplement :
   * Actions : liste les actions disponibles et pouvant être réalisées sur ce contact pour son anniversaire.
     * `Toutes` : exécute l'ensemble des actions disponibles dans l'onglet `actions`
     * `Aucune` : aucune action n'est lancée
-    * `autre choix` (en fonction de ce que vous aurez vous-même créé) : seule l'action sélectionné est exécutée
+    * `<autre choix>` (en fonction de ce que vous aurez vous-même créé !) : seule l'action sélectionnée est exécutée
 
 Il est possible de désactiver (plus ou moins temporairement) un anniversaire (plutôt que de le supprimer puis le recréer plus tard) en décochant la case `Active`.  
 
@@ -85,4 +85,11 @@ Aucune pour le moment.
 
 # FAQ  
 
-TBD
+## Prochains développements à venir ?
+
+* Création d'un widget pour les prochaines anniversaires
+
+En cours d'étude :
+
+* Intégration d'un lien avec Facebook pour rappatrier les anniversaires des amis FB
+* Intégration d'un lien avec Google pour rappatrier les anniversaires des contacts Google
