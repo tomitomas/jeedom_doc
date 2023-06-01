@@ -72,7 +72,7 @@ Pour ajouter un anniversaire, il faut simplement :
   * la date anniversaire (ou autre) qu'on ne veut surtout pas oublier
   * Contact 1 : permet d'indiquer une première méthode pour contacter la personne (numéro de téléphone perso, email perso, ....) *  
   * Contact 2 : permet d'avoir une seconde méthode pour contacter la personne (numéro de téléphone pro, email pro, ....)  *  
-  *
+  * Actions : liste les actions disponibles et pouvant être réalisées sur ce contact pour son anniversaire
 
 Il est possible de désactiver (plus ou moins temporairement) un anniversaire (plutôt que de le supprimer puis le recréer plus tard) en décochant la case `Active`.  
 
