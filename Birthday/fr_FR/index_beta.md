@@ -1,6 +1,6 @@
 # Plugin Anniversaires (Birthday) - BETA
 
-Plus d'excuse pour oublier de fêtre un anniversaire !  
+Plus d'excuse pour oublier de fêter un anniversaire (ou une fête) !  
 Ce plugin permet d'enregistrer les anniversaires des membres de votre famille, animaux, amis, collègues, etc ... et de réaliser différentes actions en amont (acheter un kdo !) et/ou le jour J (envoyer un sms, mail, ...).
 
 <img src="..\img\logo.png" width="20%" />
@@ -36,13 +36,13 @@ Vous retrouvez ici toute la configuration standard de votre équipement :
 # Actions  
 
 Cet onglet contient les principales configurations d'actions qui seront utilisées pour tout ou partie de vos anniversaires.  
-Vous pouvez par exemple choisir d'avoir plusieurs rappels pour chaque tâche ; chaque rappel pouvant réaliser différentes actions/opérations.  
+Vous pouvez choisir de définir tout un tas d'actions ou groupe d'actions ; chaque anniversaire pourra alors réaliser l'ensemble des actions ou une parmi la liste.  
 
 Par exemple :
 
 * 3 jours avant l'évènement : m'envoyer un rappel pour que j'aille acheter un kdo, des fleurs, ...
 * jour J à 9h00 : afficher un rappel sur jeedom / faire une annonce vocale dans la maison que c'est l'anniv de Mamie aujourd'hui...
-* jour J à 12h00 : envoyer sms
+* jour J à 12h00 : envoyer sms  
 ...
 
 <img src="..\img\list_action.png"  />
@@ -53,16 +53,15 @@ Pour les options de la commande, vous pouvez utiliser les tags suivants, qui ser
 * `#eqName#` => nom de l'équipement Anniversaire
 * `#contactName#` => nom du contact
 * `#birthdayInfo#` => date d'anniversaire
-* `#contactDetail1#` => tél du contact
-* `#contactDetail2#` => email du contact
-* `#age#` => âge souhaité
+* `#contactDetail1#` => détail n°1 du contact
+* `#contactDetail2#` => détail n°2 du contact
+* `#age#` => âge à souhaiter
 
 # Anniversaires  
 
-C'est ici que sont listées les dates anniversaires qu'il ne faut pas oublier :).  
-Chaque tâche recevra 1 à N rappel en fonction de la configuration réalisée sur l'onglet précédent.
+C'est ici que sont listées les dates anniversaires qu'il ne faut surtout pas oublier :).  
 
-<img src="..\img\list_anniv.png" width="60%" />  
+<img src="..\img\list_anniv.png" width="100%" />  
 
 Pour ajouter un anniversaire, il faut simplement :
 
