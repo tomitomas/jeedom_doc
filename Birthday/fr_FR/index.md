@@ -51,10 +51,10 @@ Pour les options de la commande, vous pouvez utiliser les tags suivants, qui ser
 
 * `#eqId#` => numéro de l'équipement Anniversaire
 * `#eqName#` => nom de l'équipement Anniversaire
-* `#contactName#` => nom du contact
-* `#birthdayInfo#` => date d'anniversaire
-* `#contactDetail1#` => détail n°1 du contact
-* `#contactDetail2#` => détail n°2 du contact
+* `#birthdayName#` => nom du contact
+* `#birthdayDate#` => date d'anniversaire
+* `#birthdayContact1#` => détail n°1 du contact
+* `#birthdayContact2#` => détail n°2 du contact
 * `#age#` => âge à souhaiter
 
 # Anniversaires  
@@ -68,7 +68,8 @@ Pour ajouter un anniversaire, il faut simplement :
 * cliquer sur le bouton `Ajouter un anniversaire`
 * définir les éléments suivants :
   * le nom de la personne / évènement concerné
-  * la date anniversaire (ou autre) qu'on ne veut surtout pas oublier
+  * la date anniversaire (ou autre) qu'on ne veut surtout pas oublier au format `jj/mm/aaaa`
+    * Si vous ne connaissez pas l'année, vous avez la possibilité de ne pas la renseigner en décochant la case `conserver l'année`
   * Contact 1 : permet d'indiquer une première méthode pour contacter la personne (numéro de téléphone perso, email perso, ....) *  
   * Contact 2 : permet d'avoir une seconde méthode pour contacter la personne (numéro de téléphone pro, email pro, ....)  *  
   * Actions : liste les actions disponibles et pouvant être réalisées sur ce contact pour son anniversaire.
@@ -91,4 +92,9 @@ Aucune pour le moment.
 En cours d'étude :
 
 * Intégration d'un lien avec Facebook pour rappatrier les anniversaires des amis FB
-* Intégration d'un lien avec Google pour rappatrier les anniversaires des contacts Google
+* Intégration d'un lien avec Facebook pour rappatrier les anniversaires des amis FB
+
+## Est-il possible de récupérer automatiquement les infos sur FB ?
+
+Après plusiseurs tests et jours de recherche, Facebook n'autorise plus depuis quelques années à récupérer de façon automatique les anniversaires de ses propres amis. Les API ne permettent plus d'avoir accès à cette information.  
+Le plugin ne pourra donc pas créer automatiquement ces dates.  
