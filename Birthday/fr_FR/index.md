@@ -91,8 +91,8 @@ Aucune pour le moment.
 
 En cours d'étude :
 
-* Intégration d'un lien avec Facebook pour rappatrier les anniversaires des amis FB
-* Intégration d'un lien avec Facebook pour rappatrier les anniversaires des amis FB
+* Intégration d'un lien avec Google pour rappatrier les anniversaires des contacts Google
+* Intégration d'un lien avec IOS pour rappatrier les anniversaires de contacts Apple
 
 ## Est-il possible de récupérer automatiquement les infos sur FB ?
 
