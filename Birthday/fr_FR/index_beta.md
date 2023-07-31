@@ -80,7 +80,8 @@ Il est possible de désactiver (plus ou moins temporairement) un anniversaire (p
 
 # Commandes disponibles  
 
-Aucune pour le moment.
+* `Anniversaire aujourdhui` : commande binaire qui permet de savoir s'il y a un anniversaire prévu aujourd'hui ou non (à utiliser dans d'autres scénario, comme condition sur un module, comme wigdet sur #plugin-jeedomconnect, ...)
+* `Prochain Tout` : commande texte qui permet de récupérer l'ensemble des X prochains évènements (X étant défini sur l'équipement)
 
 # FAQ  
 
