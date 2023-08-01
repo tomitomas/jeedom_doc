@@ -83,11 +83,18 @@ Il est possible de désactiver (plus ou moins temporairement) un anniversaire (p
 * `Anniversaire aujourdhui` : commande binaire qui permet de savoir s'il y a un anniversaire prévu aujourd'hui ou non (à utiliser dans d'autres scénario, comme condition sur un module, comme wigdet sur #plugin-jeedomconnect, ...)
 * `Prochain Tout` : commande texte qui permet de récupérer l'ensemble des X prochains évènements (X étant défini sur l'équipement)
 
+# Widget disponible  
+
+Une première version de widget : date, nom, âge fêté (si dispo) :  
+Ex standard sans évènement le jour J : icone en noir&blanc et anniversaire "normal"  
+<img src="..\img\anniv_today.png" width="100%" />  
+
+Ex avec un évènement le jour J : icone en couleur et anniversaire en gras  
+<img src="..\img\no_anniv_today.png" width="100%" />  
+
 # FAQ  
 
 ## Prochains développements à venir ?
-
-* Création d'un widget pour les prochaines anniversaires
 
 En cours d'étude :
 
