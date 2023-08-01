@@ -87,10 +87,10 @@ Il est possible de désactiver (plus ou moins temporairement) un anniversaire (p
 
 Une première version de widget : date, nom, âge fêté (si dispo) :  
 Ex standard sans évènement le jour J : icone en noir&blanc et anniversaire "normal"  
-<img src="..\img\anniv_today.png" width="100%" />  
+<img src="..\img\anniv_today.png" width="70%" />  
 
 Ex avec un évènement le jour J : icone en couleur et anniversaire en gras  
-<img src="..\img\no_anniv_today.png" width="100%" />  
+<img src="..\img\no_anniv_today.png" width="70%" />  
 
 # FAQ  
 

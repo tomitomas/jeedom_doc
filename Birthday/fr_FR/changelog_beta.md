@@ -16,9 +16,9 @@ Nouveauté :
 - Création d'une commande `Prochain Tout` : qui permet de récupérer l'ensemble des X prochains évènements (X étant défini sur l'équipement)
 - Création d'une première version de widget : date, nom, âge fêté (si dispo)
 Ex standard sans évènement le jour J : icone en noir&blanc et anniversaire "normal"
-<img src="..\img\anniv_today.png" width="100%" />  
+<img src="..\img\anniv_today.png" width="70%" />  
 Ex avec un évènement le jour J : icone en couleur et anniversaire en gras
-<img src="..\img\no_anniv_today.png" width="100%" />  
+<img src="..\img\no_anniv_today.png" width="70%" />  
 
 L'icone du widget est personnalisable (sur l'édition du widget).
 
