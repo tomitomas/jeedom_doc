@@ -4,6 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 28/08/2023
+
+- Ajout d'un cron dédié pour les actions/notif sur les poubelles
+- Réoprganisation de l'affichage sur la page principale pour une lecture plus lisible des actions
+- Corrections bugs & trad
+
 # 26/03/2023
 
 - Mise à jour du plugin pour un bon fonctionnement avec la version core 4.4
