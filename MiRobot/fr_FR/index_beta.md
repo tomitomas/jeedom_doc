@@ -1,4 +1,4 @@
-# Plugin MiRobot (mirobot)
+# Plugin MiRobot (mirobot) - BETA
 
 Ce plugin permet de synchroniser sur son Jeedom les robots aspirateurs enregistrés sur son compte Xiaomi afin de pouvoir les piloter depuis Jeedom et depuis les différentes applications mobiles.
 

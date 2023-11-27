@@ -1,4 +1,4 @@
-header h1{
+header h1 {
     width: 740px;
 }
 
@@ -35,6 +35,9 @@ header h1{
     content: "//";
 }
 
-h1, h2, h1:before, h2:before {
-    color: #b42828 !important;
+h1,
+h2,
+h1:before,
+h2:before {
+    color: rgb(8, 138, 133);
 }
