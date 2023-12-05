@@ -6,12 +6,21 @@
 
 # 05/12/2023
 
-- Nouveauté :
+- Nouveautés :
   - Ajout une option de configuration pour forcer l'utilisation d'un driver
   - Ajout de screenshot sur certaines étapes du process
 
 - Fix :
   - Mise à jour en ipv4 et non ipv6
+
+# 20/11/2023
+
+- Nouveautés :
+  - Ajout création post automatique sur le forum (core 4.4 mini)
+  - Version minimum 4.2
+  - Chgt icone
+  - Modification sur les dépendances pour Debian
+  (problème connu tjs en cours : dépendances sur Raspbian )
 
 # 19/04/2023
 
