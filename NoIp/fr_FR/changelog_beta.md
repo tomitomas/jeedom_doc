@@ -4,6 +4,15 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/12/2023
+
+- Nouveauté :
+  - Ajout une option de configuration pour forcer l'utilisation d'un driver
+  - Ajout de screenshot sur certaines étapes du process
+
+- Fix :
+  - Mise à jour en ipv4 et non ipv6
+
 # 19/04/2023
 
 - Nouveauté :
