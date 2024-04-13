@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 13/04/2024
+
+- Ajout de la commande MaJ une tâche afin de change simplement l’échéance de celle-ci
+- Ajout du tag #taskId# dans les données dispo pour réaliser des actions
+
 # 26/03/2023
 
 - Mise à jour du plugin pour un bon fonctionnement avec la version core 4.4
