@@ -4,6 +4,14 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/05/2024
+
+- Exclusion du dossier `venv` lors de backup
+- FIX cmde `position` pour Dreame
+- Ajout cmde `position` et `Ne pas déranger` pour Roborock
+- Fix min/max batterie
+- FIX divers
+
 # 12/11/2023
 
 - Changement de propriétaire (Julien80 => tomitomas)
