@@ -4,6 +4,14 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/06/2024
+
+- Fix bouton `Créer un post Community`
+- Fix des dates à lancement uniquement (en erreur sur php8)
+- Fix sur l'auto-suppression
+- Fix sur le rafraichissement du widget sur un équipement dont l'échéance est optionnelle
+
+
 # 13/04/2024
 
 - Ajout de la commande MaJ une tâche afin de change simplement l’échéance de celle-ci

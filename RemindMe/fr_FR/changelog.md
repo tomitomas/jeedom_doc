@@ -4,6 +4,13 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/06/2024
+
+- Fix bouton `Créer un post Community`
+- Fix des dates à lancement uniquement (en erreur sur php8)
+- Fix sur l'auto-suppression
+- Fix sur le rafraichissement du widget sur un équipement dont l'échéance est optionnelle
+
 # 05/02/2023
 
 Mise à jour importante à réaliser.  
