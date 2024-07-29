@@ -4,13 +4,22 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/07/2024 - BETA & STABLE
+
+- Fix sur les dates fixes (avec core en 4.4.9)
+- Ajout d’un bouton « supprimer toutes les tâches »
+
+# 08/07/2024
+
+- Fix chargement lib
+- Fix masquage de la ligne d’en-tête
+
 # 24/06/2024
 
 - Fix bouton `Créer un post Community`
 - Fix des dates à lancement uniquement (en erreur sur php8)
 - Fix sur l'auto-suppression
 - Fix sur le rafraichissement du widget sur un équipement dont l'échéance est optionnelle
-
 
 # 13/04/2024
 
