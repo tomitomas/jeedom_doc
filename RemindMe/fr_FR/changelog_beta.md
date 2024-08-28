@@ -4,7 +4,12 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 29/07/2024 - BETA & STABLE
+# 28/08/2024
+
+Let’s go international ! :fr: :us_outlying_islands: :uk: :es: :de:
+Pas de nouveautés en tant que telle, « juste » la traduction du plugin en plusieurs langues : FR, US, ES, DE !
+
+# 29/07/2024
 
 - Fix sur les dates fixes (avec core en 4.4.9)
 - Ajout d’un bouton « supprimer toutes les tâches »
