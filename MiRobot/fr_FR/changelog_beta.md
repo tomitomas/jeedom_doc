@@ -4,6 +4,12 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/08/2024
+
+Let’s go international : a traduction du plugin en plusieurs langues : FR, US, ES, DE !
+
+- Refonte de l'installation des dépendances
+
 # 22/05/2024
 
 - Exclusion du dossier `venv` lors de backup

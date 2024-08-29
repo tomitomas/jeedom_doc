@@ -4,6 +4,11 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/08/2024
+
+Let’s go international !
+Pas de nouveautés en tant que telle, « juste » la traduction du plugin en plusieurs langues : FR, US, ES, DE !
+
 # 26/12/2023
 
 Nouveauté :

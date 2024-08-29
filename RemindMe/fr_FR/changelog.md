@@ -6,7 +6,7 @@
 
 # 28/08/2024
 
-Let’s go international ! :fr: :us_outlying_islands: :uk: :es: :de:
+Let’s go international !
 Pas de nouveautés en tant que telle, « juste » la traduction du plugin en plusieurs langues : FR, US, ES, DE !
 
 # 29/07/2024
