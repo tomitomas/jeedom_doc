@@ -4,6 +4,18 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 29/10/2024
+
+- Ajout d'une option pour que le clavier s'affiche de façon aléatoire
+- Traduction du plugin : US, ES, DE
+
+# 20/11/2023
+
+- Alignement BETA & Stable
+- Ajout création post automatique sur le forum (core 4.4 mini)
+- Version minimum 4.2
+- Changement icone
+
 # 26/03/2023
 
 - Mise à jour du plugin pour un bon fonctionnement avec la version core 4.4

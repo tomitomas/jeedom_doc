@@ -4,6 +4,25 @@
 >
 >Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/11/2025
+
+- Fix sur la version de la librairie a utiliser pour que le plugin continue de fonctionner
+- Mise à jour des scripts de déploiement
+- Correction fuite mémoire
+
+# 03/10/20204
+
+- Correction des commandes infos « mode actif » & « ventilation active » dans la langue FR/EN/US/ES
+
+# 05/09/2024
+
+Let’s go international !
+Traduction du plugin en plusieurs langues : :fr: :us_outlying_islands: :es: :de:
+
+- Nouvelle façon d’installer des dépendances
+- Mise en place d’un venv propre au plugin
+- Mise à jour des dépendances pour utiliser les dernières versions disponibles
+
 # 26/03/2023
 
 - Mise à jour du plugin pour un bon fonctionnement avec la version core 4.4
